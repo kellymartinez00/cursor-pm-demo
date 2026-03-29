@@ -48,13 +48,31 @@ When generating images that include the Boom Tech mascot character via Nano Bana
 - White background for all images unless specified otherwise
 - Light Blue (#D1E9FF) for supporting card/node backgrounds in diagrams
 
+## Approved Reference Images
+
+### Casual Variant (Canonical)
+`/Users/kelly.cruz/Documents/devRoot/BTNDRMASTER/NDR-FRONTENDS/BTAssist/PMDEMOASSIST/artifactgen/images/character/00-boom-tech-ndr-mascot-casual.png`
+
+This is the approved casual character design. All future casual-variant generations must match this image: single lanyard badge with shield-only logo, goggles-adjust pose, red tie, flowing labcoat, no weapon.
+
+### Original Boom Tech Art
+`/Users/kelly.cruz/Documents/devRoot/BTNDRMASTER/NDR-FRONTENDS/BTAssist/PMDEMOASSIST/LOGO_DESIGN.3b081599.png`
+
+### NDR Shield Logo (Badge Reference)
+`/Users/kelly.cruz/Documents/devRoot/BTNDRMASTER/NDR-FRONTENDS/BTAssist/PMDEMOASSIST/brandguide/registered-trademark-shield-ndr.svg`
+
 ## Nano Banana Generation Parameters
 - Model: `pro` for character consistency
 - Always use `conversation_id: "pm-demo-char"` to maintain session history
 - Always pass `use_image_history: true` for style consistency
-- Pass the following as `reference_images` when generating character images:
-  - `/Users/kelly.cruz/Documents/devRoot/BTNDRMASTER/NDR-FRONTENDS/BTAssist/PMDEMOASSIST/LOGO_DESIGN.3b081599.png`
-  - `/Users/kelly.cruz/Documents/devRoot/BTNDRMASTER/NDR-FRONTENDS/BTAssist/PMDEMOASSIST/brandguide/registered-trademark-shield-ndr.svg`
+- Pass `reference_images` based on variant:
+  - **Casual variant** (always include all three):
+    - `/Users/kelly.cruz/Documents/devRoot/BTNDRMASTER/NDR-FRONTENDS/BTAssist/PMDEMOASSIST/artifactgen/images/character/00-boom-tech-ndr-mascot-casual.png`
+    - `/Users/kelly.cruz/Documents/devRoot/BTNDRMASTER/NDR-FRONTENDS/BTAssist/PMDEMOASSIST/LOGO_DESIGN.3b081599.png`
+    - `/Users/kelly.cruz/Documents/devRoot/BTNDRMASTER/NDR-FRONTENDS/BTAssist/PMDEMOASSIST/brandguide/registered-trademark-shield-ndr.svg`
+  - **Action variant** (include original art + shield):
+    - `/Users/kelly.cruz/Documents/devRoot/BTNDRMASTER/NDR-FRONTENDS/BTAssist/PMDEMOASSIST/LOGO_DESIGN.3b081599.png`
+    - `/Users/kelly.cruz/Documents/devRoot/BTNDRMASTER/NDR-FRONTENDS/BTAssist/PMDEMOASSIST/brandguide/registered-trademark-shield-ndr.svg`
 
 ## Prompt Construction Pattern
 

@@ -65,9 +65,14 @@ Use `CallMcpTool` with server `user-nanobanana` and tool `gemini_generate_image`
 - `aspect_ratio`: from user input or `"16:9"`
 - `conversation_id`: `"pm-demo-char"`
 - `use_image_history`: `true`
-- `reference_images`: always include both:
-  - `/Users/kelly.cruz/Documents/devRoot/BTNDRMASTER/NDR-FRONTENDS/BTAssist/PMDEMOASSIST/LOGO_DESIGN.3b081599.png`
-  - `/Users/kelly.cruz/Documents/devRoot/BTNDRMASTER/NDR-FRONTENDS/BTAssist/PMDEMOASSIST/brandguide/registered-trademark-shield-ndr.svg`
+- `reference_images`: select based on variant:
+  - **Casual variant** (all three):
+    - `/Users/kelly.cruz/Documents/devRoot/BTNDRMASTER/NDR-FRONTENDS/BTAssist/PMDEMOASSIST/artifactgen/images/character/00-boom-tech-ndr-mascot-casual.png` (approved canonical casual design)
+    - `/Users/kelly.cruz/Documents/devRoot/BTNDRMASTER/NDR-FRONTENDS/BTAssist/PMDEMOASSIST/LOGO_DESIGN.3b081599.png`
+    - `/Users/kelly.cruz/Documents/devRoot/BTNDRMASTER/NDR-FRONTENDS/BTAssist/PMDEMOASSIST/brandguide/registered-trademark-shield-ndr.svg`
+  - **Action variant** (two):
+    - `/Users/kelly.cruz/Documents/devRoot/BTNDRMASTER/NDR-FRONTENDS/BTAssist/PMDEMOASSIST/LOGO_DESIGN.3b081599.png`
+    - `/Users/kelly.cruz/Documents/devRoot/BTNDRMASTER/NDR-FRONTENDS/BTAssist/PMDEMOASSIST/brandguide/registered-trademark-shield-ndr.svg`
 - `output_path`: the determined output path
 
 ### Post-Generation
