@@ -36,13 +36,14 @@ Construct the Nano Banana prompt following this template. Replace bracketed item
 
 ```
 Create a [ASPECT_RATIO] anime/manga cel-shaded illustration of the Boom Tech mascot character.
-The character has bright spiky red hair swept upward with a red headband, and steampunk-style
-goggles with navy blue frames pushed up on their forehead. They wear a flowing white labcoat
-with red accent trim along the collar and cuffs, open in front showing a red necktie over a
-dark shirt. Black fitted pants and dark navy combat boots with red laces. A single lanyard
-employee badge hangs around their neck — the badge shows only the NDR shield logo: a navy
-blue (#1F2147) shield shape with a red (#A31921) flag/banner accent and small decorative
-stars on a white card. No text on the badge, no duplicate badges.
+The character is FEMALE (not male) with bright spiky red hair swept upward with a red headband,
+sharp anime eyes with feminine features, slender athletic build, and steampunk-style goggles
+with navy blue frames pushed up on her forehead. She wears a flowing white labcoat with red
+accent trim along the collar and cuffs, open in front showing a red necktie over a dark shirt.
+Black fitted pants and dark navy combat boots with red laces. A single lanyard employee badge
+hangs around her neck — the badge shows only the NDR shield logo: a navy blue (#1F2147) shield
+shape with a red (#A31921) flag/banner accent and small decorative stars on a white card.
+No text on the badge, no duplicate badges.
 
 [VARIANT_DESCRIPTION]
 
@@ -54,8 +55,8 @@ Clean anime cel-shaded style. [ADDITIONAL_INSTRUCTIONS]
 
 **Variant descriptions:**
 
-- Casual: "The character stands in a confident relaxed pose — [specific pose from user input or default: one hand adjusting goggles, other on hip, confident smirk]. No weapon."
-- Action: "The character is in a dynamic action pose, slightly crouched, carrying a large dark metallic rocket launcher over one shoulder with red accent highlights. Labcoat billowing behind them. Determined, focused expression."
+- Casual: "She stands in a confident relaxed pose — [specific pose from user input or default: one hand adjusting goggles, other on hip, confident smirk]. No weapon."
+- Action: "She is in a dynamic action pose, slightly crouched, carrying a large dark metallic rocket launcher over one shoulder with red accent highlights. Labcoat billowing behind her. Determined, focused expression."
 
 ### Call Nano Banana
 

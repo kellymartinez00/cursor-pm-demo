@@ -13,9 +13,11 @@ When generating images that include the Boom Tech mascot character via Nano Bana
 ## Character Design
 
 ### Physical Appearance
+- Female character — do NOT generate as male
 - Bright spiky red hair swept dramatically upward and backward
 - Red headband across the forehead
-- Sharp, determined anime-style eyes
+- Sharp, determined anime-style eyes with feminine features
+- Slender, athletic build matching the original Boom Tech poster art
 - Confident or focused expression (smirk for casual, intense for action)
 
 ### Goggles
@@ -90,7 +92,9 @@ When generating cover slides or branded images that require the NDR logo, includ
 When building a Nano Banana prompt for this character, always include these elements in order:
 
 - Art style: "anime/manga cel-shaded illustration style"
+- Gender: "female character" — always specify, do NOT generate as male
 - Hair: "bright spiky red hair swept upward with a red headband"
+- Face: "sharp anime-style eyes with feminine features, slender athletic build"
 - Goggles: "steampunk-style goggles pushed up on their forehead with navy blue frames"
 - Outfit: "white labcoat with red accent trim, open in front showing a red necktie over dark shirt, black pants, dark navy combat boots with red laces"
 - Badge: "single lanyard employee badge around the neck showing only the NDR shield logo (navy blue shield with red flag accent and small stars, no text)"
@@ -98,3 +102,18 @@ When building a Nano Banana prompt for this character, always include these elem
 - Weapon (action only): "large dark metallic rocket launcher over one shoulder with red accent highlights"
 - Colors: "deep navy blue (#1F2147) and flag red (#A31921) color palette, white background"
 - Constraint: "no duplicate badges, no extra text on the badge, single lanyard badge only"
+
+## Brand Guidelines Reference (Colors and Typography Only)
+
+For colors and typography, reference the NDR brand guidelines at:
+`/Users/kelly.cruz/Documents/devRoot/BTNDRMASTER/NDR-FRONTENDS/BTAssist/PMDEMOASSIST/brandguide/ndr-brand-guidelines.md`
+
+- **Typography**: Avenir Next LT Pro (sole typeface). Weights: 400 Regular, 500 Medium, 600 Demi/Semibold, 700 Bold.
+- **Brand colors**: Deep Blue #1F2147, Flag Red #A31921
+- **Primary heading color**: #101828 (gray-900)
+- **Body text**: #344054 (gray-700)
+- **Secondary text**: #667085 (gray-500)
+- **Link color**: #1849A9
+- **Page backgrounds**: #FFFFFF (white), #F1F3F9 (light), #F5F0EB (warm neutral)
+- **Logo must appear on white or light neutral backgrounds only**
+- Do NOT use the brand guidelines for imagery direction — only for colors and type.

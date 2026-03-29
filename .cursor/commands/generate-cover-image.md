@@ -16,23 +16,31 @@ Before generating, read:
 - `.cursor/rules/boom-tech-character.mdc` for the canonical character design
 - Brand color reference: Deep Navy Blue `#1F2147`, Flag Red `#A31921`, white `#FFFFFF`
 
-### Logo and Typography Rules
+### Logo Rules
 
 The NDR logo MUST NOT be invented or approximated. Always pass the actual logo files as `reference_images` so Gemini reproduces them accurately:
 
 - **Full wordmark logo**: `/Users/kelly.cruz/Documents/devRoot/BTNDRMASTER/NDR-FRONTENDS/BTAssist/PMDEMOASSIST/brandguide/ndrlogo.svg`
-  - Contains: "NATIONAL DEBT RELIEF" wordmark in navy `#1F2147`, red flag/banner element in `#A31921`, decorative stars, horizontal rule, and "DEBT RELIEF" subtitle
 - **Shield logo**: `/Users/kelly.cruz/Documents/devRoot/BTNDRMASTER/NDR-FRONTENDS/BTAssist/PMDEMOASSIST/brandguide/registered-trademark-shield-ndr.svg`
-  - Contains: shield shape in navy `#1F2147` with red `#A31921` flag accent and decorative stars. Registered trademark symbol.
 
 Do NOT describe the logo from memory. Instead, instruct the prompt to "reproduce the NDR logo exactly as provided in the reference images" and rely on the reference_images to carry the visual.
 
-### Typography
+Per brand guidelines, the logo must always appear on a white (#FFFFFF) or light neutral (#F5F0EB) background. Never place it on a busy or dark background without a solid backing container.
 
-- Font: Avenir Next (the NDR brand typeface)
-- Headings: bold, navy `#1F2147`
-- Subtitles: medium weight, navy `#1F2147` or gray `#667085`
-- Never use serif fonts or handwritten styles
+### Typography and Colors (from Brand Guidelines)
+
+Reference `/Users/kelly.cruz/Documents/devRoot/BTNDRMASTER/NDR-FRONTENDS/BTAssist/PMDEMOASSIST/brandguide/ndr-brand-guidelines.md` for colors and typography only, not for imagery.
+
+- **Font**: Avenir Next LT Pro (sole NDR typeface)
+- **Headings**: bold (700), navy #1F2147 or gray-900 #101828
+- **Subtitles**: medium (500) or regular (400), gray #667085
+- **Brand colors**: Deep Blue #1F2147, Flag Red #A31921
+- **Backgrounds**: white #FFFFFF, light #F1F3F9, warm neutral #F5F0EB
+- Never use serif fonts, handwritten styles, or non-Avenir typefaces
+
+### Character Rules
+
+The mascot is a FEMALE character. Do NOT generate as male. Always specify "female character" in the prompt. Follow the canonical design from `.cursor/rules/boom-tech-character.mdc`.
 
 ### Build the Cover Prompt
 
@@ -62,11 +70,12 @@ VISUAL ENERGY: Add depth to the composition with:
 - Soft glowing connection lines between the icons suggesting integration
 - Subtle particle/dot effects for a modern tech feel
 
-CHARACTER: On the right third of the image, the Boom Tech mascot character in the casual
-pose. Character details: bright spiky red hair with red headband, steampunk goggles with
-navy blue frames on forehead, white labcoat with red accent trim open showing red necktie
-over dark shirt, black pants, navy combat boots with red laces. Single lanyard employee
-badge around neck showing only the NDR shield logo (no text on badge, just the shield).
+CHARACTER: On the right third of the image, the Boom Tech mascot — a FEMALE anime
+character (not male). She has bright spiky red hair with red headband, steampunk goggles
+with navy blue frames on forehead, sharp anime eyes with feminine features, slender
+athletic build. White labcoat with red accent trim open showing red necktie over dark
+shirt, black pants, navy combat boots with red laces. Single lanyard employee badge
+around neck showing only the NDR shield logo (reproduce from reference, no text on badge).
 No duplicate badges. No weapon. Confident stance, welcoming gesture (thumbs up or open
 hand). The character should feel integrated into the design, not pasted on.
 
