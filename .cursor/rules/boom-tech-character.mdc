@@ -74,6 +74,17 @@ This is the approved casual character design. All future casual-variant generati
     - `/Users/kelly.cruz/Documents/devRoot/BTNDRMASTER/NDR-FRONTENDS/BTAssist/PMDEMOASSIST/LOGO_DESIGN.3b081599.png`
     - `/Users/kelly.cruz/Documents/devRoot/BTNDRMASTER/NDR-FRONTENDS/BTAssist/PMDEMOASSIST/brandguide/registered-trademark-shield-ndr.svg`
 
+## NDR Logo Assets (Do Not Approximate)
+
+Never describe or invent the NDR logo from memory. Always pass the actual logo files as reference_images and instruct the prompt to reproduce them from the reference.
+
+- **Full wordmark**: `/Users/kelly.cruz/Documents/devRoot/BTNDRMASTER/NDR-FRONTENDS/BTAssist/PMDEMOASSIST/brandguide/ndrlogo.svg`
+  - "NATIONAL DEBT RELIEF" in navy #1F2147, red flag/banner #A31921, decorative stars, "DEBT RELIEF" subtitle, horizontal rule
+- **Shield only**: `/Users/kelly.cruz/Documents/devRoot/BTNDRMASTER/NDR-FRONTENDS/BTAssist/PMDEMOASSIST/brandguide/registered-trademark-shield-ndr.svg`
+  - Shield shape in navy #1F2147 with red #A31921 flag accent and stars, registered trademark symbol
+
+When generating cover slides or branded images that require the NDR logo, include BOTH logo files in reference_images and use the phrase: "Reproduce the NDR logo exactly as shown in the reference images" in the prompt.
+
 ## Prompt Construction Pattern
 
 When building a Nano Banana prompt for this character, always include these elements in order:
