@@ -1,0 +1,71 @@
+---
+description: Boom Tech x NDR mascot character specification for consistent Nano Banana image generation.
+globs:
+  - "**/images/**"
+  - "**/artifactgen/**"
+alwaysApply: false
+---
+
+# Boom Tech x NDR Character Specification
+
+When generating images that include the Boom Tech mascot character via Nano Banana MCP, always follow this canonical character description. The character must remain visually consistent across all generated images.
+
+## Character Design
+
+### Physical Appearance
+- Bright spiky red hair swept dramatically upward and backward
+- Red headband across the forehead
+- Sharp, determined anime-style eyes
+- Confident or focused expression (smirk for casual, intense for action)
+
+### Goggles
+- Steampunk-style goggles with deep navy blue (#1F2147) frames
+- Always pushed up on the forehead, never covering the eyes
+- Circular lenses with subtle glare detail
+
+### Outfit
+- **Labcoat**: flowing white labcoat, open in front, with red (#A31921) accent trim along collar, cuffs, and lapel edges; labcoat billows or flows in action poses
+- **Tie**: bold red (#A31921) necktie, clearly visible between the labcoat lapels
+- **Undershirt**: dark/black shirt beneath the labcoat and tie
+- **Pants**: black fitted pants
+- **Boots**: dark navy (#1F2147) combat boots with red (#A31921) laces
+- **Gloves**: dark fingerless gloves (optional, action poses only)
+
+### Employee Badge (Required)
+- Single lanyard-style employee ID badge worn around the neck
+- The badge displays ONLY the NDR shield logo (no wordmark, no "National Debt Relief" text)
+- The shield is the registered trademark shield: navy blue (#1F2147) shield shape with red (#A31921) flag/banner accent and small decorative stars
+- White rectangular badge card with a metal clip attached to a navy blue lanyard
+- Only ONE badge; never duplicate badges on the coat or arms
+
+### Weapon (Variant-Dependent)
+- **Action variant**: large dark metallic rocket launcher / bazooka carried over one shoulder; navy blue body with red accent highlights and red tip
+- **Casual variant**: no weapon at all; hands free for confident gestures (adjusting goggles, hand on hip, arms crossed, pointing)
+
+## NDR Brand Colors (Always Use)
+- Deep Navy Blue: #1F2147
+- Flag Red: #A31921
+- White background for all images unless specified otherwise
+- Light Blue (#D1E9FF) for supporting card/node backgrounds in diagrams
+
+## Nano Banana Generation Parameters
+- Model: `pro` for character consistency
+- Always use `conversation_id: "pm-demo-char"` to maintain session history
+- Always pass `use_image_history: true` for style consistency
+- Pass the following as `reference_images` when generating character images:
+  - `/Users/kelly.cruz/Documents/devRoot/BTNDRMASTER/NDR-FRONTENDS/BTAssist/PMDEMOASSIST/LOGO_DESIGN.3b081599.png`
+  - `/Users/kelly.cruz/Documents/devRoot/BTNDRMASTER/NDR-FRONTENDS/BTAssist/PMDEMOASSIST/brandguide/registered-trademark-shield-ndr.svg`
+
+## Prompt Construction Pattern
+
+When building a Nano Banana prompt for this character, always include these elements in order:
+
+- Art style: "anime/manga cel-shaded illustration style"
+- Hair: "bright spiky red hair swept upward with a red headband"
+- Goggles: "steampunk-style goggles pushed up on their forehead with navy blue frames"
+- Outfit: "white labcoat with red accent trim, open in front showing a red necktie over dark shirt, black pants, dark navy combat boots with red laces"
+- Badge: "single lanyard employee badge around the neck showing only the NDR shield logo (navy blue shield with red flag accent and small stars, no text)"
+- Pose: describe the pose appropriate to the variant
+- Weapon (action only): "large dark metallic rocket launcher over one shoulder with red accent highlights"
+- Colors: "deep navy blue (#1F2147) and flag red (#A31921) color palette, white background"
+- Constraint: "no duplicate badges, no extra text on the badge, single lanyard badge only"
